@@ -1,0 +1,54 @@
+.form-container {
+    width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+  }
+  
+  .employee-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .employee-form input,
+  .employee-form select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .submit-btn,
+  .reset-btn {
+    margin-right: 10px;
+    padding: 8px 15px;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .submit-btn {
+    background-color: #4caf50;
+  }
+  
+  .reset-btn {
+    background-color: #f44336;
+  }
+  
+  .error {
+    color: red;
+    font-size: 12px;
+  }
+  
+  .response {
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    color: green;
+  }
